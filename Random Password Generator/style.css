@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 15%;
+}
+
+tr td{
+    padding:8px;
+}
+
+#p1{
+    margin-top: 2rem;
+}
+
+input{
+    width: 5rem;
+}

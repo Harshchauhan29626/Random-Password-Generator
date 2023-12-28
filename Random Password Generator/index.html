@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p1"></p>
+        <table border="1">
+
+
+            <tr>
+
+                <td> <label for="">Password length</label></td>
+
+                <td> <input type="number" id="passwordlength"></td>
+            </tr>
+            <tr>
+                <td><label for="">Contains Uppercase</label></td>
+                <td><input type="checkbox" id="uppercasecheckbox"></td>
+            </tr>
+            <tr>
+                <td><label for="">Contains Lowercase</label></td>
+                <td><input type="checkbox" id="lowercasecheckbox"></td>
+            </tr>
+            <tr>
+                <td><label for="">Contains Numbers</label></td>
+                <td><input type="checkbox" id="numbercheckbox"></td>
+            </tr>
+            <tr>
+                <td><label for="">Contains Symbols</label></td>
+                <td><input type="checkbox" id="symbolscheckbox"></td>
+            </tr>
+            <tr>
+                <td><label for="">Contains Currency</label></td>
+                <td> <input type="checkbox" id="currencycheckbox"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button onclick="generatePassword()">Generate</button></td>
+            </tr>
+
+
+
+
+        </table>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
